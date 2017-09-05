@@ -1,7 +1,7 @@
 %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Author: Yasmin Fathy (Fathy.Yasmin@gmail.com)
-% Last Updated: 25 July, 2017
+% Last Updated: 5 Sept, 2017
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Proposed Algorithm: An On-line Adaptive Algorithm for Change
 %                     Detection in Streaming Sensory Data
@@ -14,7 +14,7 @@ clear      % clear all variables
 close all  % close all figures
 
 %% Input Parameters to generate Input (signal) channel
-sensors_num = 11;
+sensors_num = 10;
 
 channels_num = sensors_num;
 
