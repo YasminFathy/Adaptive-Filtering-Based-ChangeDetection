@@ -1,6 +1,5 @@
 %clear;
-%%
-%%%% Added by Yasmin to have a fair comparion;using the same 
+%%%% Added by Yasmin to have a fair comparion;using the same
 % generated function
 
 % Input Parameters to generate Input (signal) channel
@@ -10,15 +9,18 @@ variance = 1;
 correlation_value = 0;
 plot_flag = 0; 
 iter =1;
-iterations = 2;
+iterations = 1000;
 threshold_detection = 50;
 tic % to calculate the execution time in seconds
 for iter = 1:iterations
     iter
 
 [x, corr_x, time_detection, corr_mat, mu1,length_segments]= randomPieceWiseGenerator(channels_num, segments_num, variance, correlation_value, plot_flag);
-%y = x';
-y = corr_x';
+if correlation_value > 0
+    y = corr_x;
+else
+    y = x;
+end
 %%%% Finish updated by Yasmin
 
 %load logwell.mat
@@ -26,14 +28,14 @@ y = corr_x';
 % choice of alpha
 alpha = 0.01;%.01;
 
-n = 50;  %50% no of samles
-k = 10; %50;  %10; % window size
+n = 50;  
+k = 10; 
 % subplot(2,1,1)
 % plot(y')
 % axis([1,size(y,2),-inf,inf])
 
 %%
-% Forward detectino
+% Forward detection
 score1 = change_detection(y,n,k,alpha,5);
 % Backword detection
 score2 = change_detection(y(:,end:-1:1),n,k,alpha,5);
