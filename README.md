@@ -29,3 +29,4 @@ The algorithm is tested on:
 
 -Real-world data in "real-world-dataset" directory
 
+Run addpath_files.m to add the path of all directories into matlab path
