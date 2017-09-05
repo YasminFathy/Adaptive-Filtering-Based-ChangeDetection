@@ -4,10 +4,6 @@
 load Participant1 
 p1 = Participant1;
 [rows, columns] = size(Participant1);
-%length_signal = rows;
-% start_p = 9001;
-% end_p = 54000;
-
 
 start_p = 9001;
 end_p = rows;
@@ -18,19 +14,8 @@ z_acc1 = p1{start_p:end_p,3};
 labels1= p1{start_p:end_p,4};
 vector_magnitude1 = sqrt(x_acc1.^2 + y_acc1.^2 + z_acc1.^2);
 
-% we will just do that for the first participant since all activities are
-% happening at the same time across all participants
-% convert categorical data (activity label)
-% into numeric
 [activity_ID1, activity_string] = grp2idx(labels1);
 activity_string
-
-% chek: https://uk.mathworks.com/matlabcentral/newsreader/view_thread/303256
-% first: first index of occurance
-% last: last index of occurance
-% e : values that they found in the occurance whose first and last indices
-% are obtained
-% lgt: length of each occurance
 [lgt first last e] = SplitVec(activity_ID1, [], 'length','first','last', 'firstelem');
 
 first
