@@ -2,8 +2,8 @@
 Important note: In section 3 (data collection) in our paper, the term running is mistakenly used for the jogging. So please only consider the jogging activity.
 
 In the data collection experiments, we collected data for seven physical activities. These are walking, sitting, standing, jogging, biking, walking upstairs and walking downstairs, which are mainly used in the related studies and they are the basic motion activities in daily life. There were ten participants involved in our data collection experiment who performed each of these activities for 3-4 minutes. All ten participants were male, between the ages of 25 and 30. The experiments were carried out indoors in one of the university buildings, except biking. For walking, and jogging, the department corridor was used. For walking upstairs and downstairs, a 5-floor building with stairs was used. Each of these participants was equipped with five smartphones on five body positions: 
-1.	One in their right jean’s pocket. 
-2.	One in their left jean’s pocket.
+1.	One in their right jeanâ€™s pocket. 
+2.	One in their left jeanâ€™s pocket.
 3.	One on belt position towards the right leg using a belt clipper.
 4.	One on the right upper arm. 
 5.	One on the right wrist. 
