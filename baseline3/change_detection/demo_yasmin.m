@@ -98,7 +98,6 @@ delayR = mean(delay)
 timeElapsed = toc % to calculate execution time in seconds
 
 %% plots figure
-
 fig = figure;
 subplot(2,1,1);
 plot(y');
@@ -113,7 +112,6 @@ end
 axis([-inf,size(y,2),-inf,inf])
 grid on;
 %%
-
 subplot(2,1,2);
 score2 = score2(end:-1:1);
 
