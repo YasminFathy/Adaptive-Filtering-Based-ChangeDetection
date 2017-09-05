@@ -29,4 +29,6 @@ The algorithm is tested on:
 
 -Real-world data in "real-world-dataset" directory
 
-Run addpath_files.m to add the path of all directories into matlab path
+Folder description:
+-utility has a SplitVec script, that we used to split vector in real-world data (the script license is also included)
+-addpath_files.m : it is the file to add the path of all directories/sub-directories into matlab path
