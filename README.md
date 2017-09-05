@@ -1,6 +1,6 @@
 # Adaptive Filtering Based Change Detection:
 
-I propose:
+We propose:
 
 -An On-line, adaptive Filtering-based Change Detection (OFCD) algorithm in "COFCD/multiChannels_detection_fixed_coop.m"
 
@@ -21,7 +21,7 @@ Reference: Liu, S., Yamada, M., Collier, N., & Sugiyama, M. (2013). Change-point
 
 Note: 
 
--I implemented baseline 1 and 2 and baseline 3 (baseline3/change_detection) is available by the authors of the ref mentioned above. In (baseline3/change_detection),I added only "demo_yasmin.m" and "demo_yasmin_db1.m" to provide a fair comparison by using the authors' implemetation on my generated data ("demo_yasmin.m") and real-word-data ("demo_yasmin_db1.m")
+-We implemented baseline 1 and 2 and baseline 3 (baseline3/change_detection) is available by the authors of the ref mentioned above. In (baseline3/change_detection),I added only "demo_yasmin.m" and "demo_yasmin_db1.m" to provide a fair comparison by using the authors' implemetation on my generated data ("demo_yasmin.m") and real-word-data ("demo_yasmin_db1.m")
 
 The algorithm is tested on:
 
