@@ -8,48 +8,6 @@
 % signals based on a correlation value between them, 
 % the no of segments, the no of channels and a variance value. However, we assume that all channels
 % will have the same variance
-
-%%%%%%%%%%%%%%
-% Assumption:% 
-%%%%%%%%%%%%%%
-% -All channels in the mutli-channel signals have the same no of segments, 
-% and the same length of each segment. to this end, all channels have the
-% same length.
-
-% The length of each segment is randomly selected from a range of 
-% (segment_len_range1, segment_len_range2) values, each segment should have
-% the same scale (i.e. direction); that is (direction_value) either 
-% an increase or decrease (is selected uniformally). 
-% This is because the same segment across channels should have an abrupt 
-% change. However, the magnitude of the direction (decrease or increase) 
-% is different from one channel to another for the same segment. 
-% This value is selected randomely from (magnitude_range1,magnitude_range2) 
-% range values.
-
-% To generate the correlated signals, Cholesky decomposition approach is 
-% applied on which the correlation value is applied between each pair of 
-% signals(channels)
-
-% Input parameters:
-% correlation_value = 0.5; % the correlation between each two
-% signals/channels
-
-% segments_num = 10;  % the number of segments (i.e. no of instantaneous changes)
-% channels_num = 12;  % the number of channels (i.e. no of sensors)
-
-% var = 1; % variance is constant for all channels because herein 
-% I want to generate signals that have variations in the mean values not 
-% in the variance
-
-% plot_flag: to save/show figures it has either plot_flag=0 not to
-% show/save or plot_flag = 1 to show/save
-
-% Output parameters:
-% x : uncorrelated multi-channel signal
-% corr_x : correlated multi-channel signal
-% time_detection : time where changes occured
-
-
 % Test function
 % [x, corr_x, time_detection] = randomPieceWiseGenerator(12, 10, 1, 0.5, 1);
 
