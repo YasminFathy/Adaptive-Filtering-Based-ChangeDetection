@@ -2,7 +2,7 @@
 
 We propose:
 
--An On-line, adaptive Filtering-based Change Detection (OFCD) algorithm in "COFCD/multiChannels_detection_fixed_coop.m"
+-An Online, adaptive Filtering-based Change Detection (OFCD) algorithm in "COFCD/multiChannels_detection_fixed_coop.m"
 
 -An extension of our method (OFCD) based on a Cooperative scheme between multiple sensors (COFCD) in "COFCD/multiChannels_detection_increasing_coop.m"
 
