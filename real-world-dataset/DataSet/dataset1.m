@@ -1,5 +1,4 @@
 
-
 % participant 1
 load Participant1 
 p1 = Participant1;
