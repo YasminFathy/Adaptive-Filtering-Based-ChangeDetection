@@ -19,7 +19,6 @@ variance = 1;
 correlation_value = 0;
 plot_flag = 0; % don't show/save figures of generated signal
 
-%% Input parameters for Alg5_detection_fixed
 % learning rate for the weights
 learning_rate = 0.1; 
 
